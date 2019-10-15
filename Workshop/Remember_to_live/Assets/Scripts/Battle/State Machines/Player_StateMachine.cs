@@ -181,6 +181,7 @@ public class Player_StateMachine : MonoBehaviour
         stuff.playerMP.text = "MP: " + player.curMP + "/" + player.playerMP;
         progressBar = stuff.progressbar;
 
+        //playerPanel.transform.parent = playerPanelSpacer;
         playerPanel.transform.SetParent(playerPanelSpacer, false);
     }
 
