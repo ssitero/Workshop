@@ -60,7 +60,6 @@ public class Battle_StateMachine : MonoBehaviour
     private List<GameObject> targetButtons = new List<GameObject>();
     public List<Transform> spawnPoints = new List<Transform>();
 
-    public bool playerIsAlive;
 
     void Awake()
     {
@@ -74,8 +73,6 @@ public class Battle_StateMachine : MonoBehaviour
     }
     void Start()
     {
-        Cursor.visible = true;
-        Cursor.lockState = CursorLockMode.None;
 
         battleState = BattleStates.Wait;
         playerList.AddRange(GameObject.FindGameObjectsWithTag("Player"));

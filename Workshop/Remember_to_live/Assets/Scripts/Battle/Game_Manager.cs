@@ -56,9 +56,6 @@ public class Game_Manager : MonoBehaviour
 
     void Update()
     {
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
-
         switch (gameState)
         {
             case (GameState.Overworld):

@@ -44,7 +44,7 @@ public class Enemy_StateMachine : MonoBehaviour
                 break;
 
             case (TurnState.ChooseAction):
-                if (!BSM.playerIsAlive)
+                if (BSM.playerList.Count == 0)
                 {
                     Debug.Log("Player dead");
                     break;
