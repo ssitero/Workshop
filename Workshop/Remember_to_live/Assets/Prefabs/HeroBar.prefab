@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1032695364938412900}
   - component: {fileID: 1032695364938412826}
   - component: {fileID: 1032695364938412901}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,15 +27,15 @@ RectTransform:
   m_GameObject: {fileID: 1032695364938412903}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.49622026, y: 0.39077348, z: 0.49622026}
+  m_LocalScale: {x: 0.37762856, y: 0.29738253, z: 0.37762856}
   m_Children: []
   m_Father: {fileID: 1032695365767690340}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.048412677, y: 0.35583577}
-  m_AnchorMax: {x: 0.31920633, y: 0.89411867}
-  m_AnchoredPosition: {x: -0.1750946, y: 1}
-  m_SizeDelta: {x: 117.26453, y: 183.73761}
+  m_AnchorMin: {x: 0.043695368, y: 0.316}
+  m_AnchorMax: {x: 0.3237219, y: 0.90400004}
+  m_AnchoredPosition: {x: -0.099990845, y: -0.5}
+  m_SizeDelta: {x: 111.26453, y: 172.73761}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1032695364938412826
 CanvasRenderer:
@@ -85,7 +85,7 @@ GameObject:
   - component: {fileID: 1032695365045960806}
   - component: {fileID: 1032695365045960804}
   - component: {fileID: 1032695365045960807}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: HP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -101,16 +101,16 @@ RectTransform:
   m_GameObject: {fileID: 1032695365045960801}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7003809, y: 0.7003809, z: 0.7003809}
+  m_LocalScale: {x: 0.44370544, y: 0.44370544, z: 0.44370544}
   m_Children:
   - {fileID: 1032695366813270294}
   m_Father: {fileID: 1032695365767690340}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 59, y: 33.127995}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchorMin: {x: 0.5237219, y: 0.597}
+  m_AnchorMax: {x: 0.85141724, y: 0.754}
+  m_AnchoredPosition: {x: 0, y: -0.70000076}
+  m_SizeDelta: {x: 100, y: 26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1032695365045960804
 CanvasRenderer:
@@ -168,10 +168,10 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 36
+  m_fontSize: 40.2
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 1032695365264830469}
   - component: {fileID: 1032695365264830523}
   - component: {fileID: 1032695365264830522}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -259,15 +259,15 @@ RectTransform:
   m_GameObject: {fileID: 1032695365264830468}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.67758, y: 0.67758, z: 0.67758}
+  m_LocalScale: {x: 0.45382956, y: 0.45382956, z: 0.45382956}
   m_Children: []
   m_Father: {fileID: 1032695365767690340}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6, y: 70}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchorMin: {x: 0.35158283, y: 0.79600006}
+  m_AnchorMax: {x: 0.6865563, y: 0.96024215}
+  m_AnchoredPosition: {x: 0, y: -0.29999924}
+  m_SizeDelta: {x: 98, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1032695365264830523
 CanvasRenderer:
@@ -325,10 +325,10 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 36
+  m_fontSize: 40.7
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -400,7 +400,7 @@ GameObject:
   - component: {fileID: 1032695365507665291}
   - component: {fileID: 1032695365507665289}
   - component: {fileID: 1032695365507665288}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ProgressBar_BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -416,15 +416,15 @@ RectTransform:
   m_GameObject: {fileID: 1032695365507665290}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.6875, y: 0.065619744, z: 1}
+  m_LocalScale: {x: 2.1224437, y: 0.065619744, z: 1}
   m_Children: []
   m_Father: {fileID: 1032695365767690340}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 72, y: -30}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0.41765565, y: 0.291}
+  m_AnchorMax: {x: 0.9471722, y: 0.35154396}
+  m_AnchoredPosition: {x: 0.29999924, y: 0.70000076}
+  m_SizeDelta: {x: -67, y: 91}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1032695365507665289
 CanvasRenderer:
@@ -454,8 +454,8 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 3c7631801e89cbd4d986b41d2f07cd31, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -474,7 +474,7 @@ GameObject:
   - component: {fileID: 1032695365717164611}
   - component: {fileID: 1032695365717164609}
   - component: {fileID: 1032695365717164608}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: ProgressBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -488,17 +488,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1032695365717164610}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.00034529547, w: 0.99999994}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.6875, y: 0.052495796, z: 1}
+  m_LocalScale: {x: 2.1226115, y: 0.052495796, z: 1}
   m_Children: []
   m_Father: {fileID: 1032695365767690340}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 72, y: -30}
-  m_SizeDelta: {x: 100, y: 100}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.040000003}
+  m_AnchorMin: {x: 0.41765565, y: 0.2998956}
+  m_AnchorMax: {x: 0.9503444, y: 0.34500003}
+  m_AnchoredPosition: {x: -0.19998932, y: 0.7000294}
+  m_SizeDelta: {x: -68, y: 93}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1032695365717164609
 CanvasRenderer:
@@ -548,7 +548,9 @@ GameObject:
   - component: {fileID: 1032695365767690340}
   - component: {fileID: 3354565517111201884}
   - component: {fileID: 189746611968413694}
-  m_Layer: 5
+  - component: {fileID: 7027728660792233035}
+  - component: {fileID: 7094989445741903534}
+  m_Layer: 0
   m_Name: HeroBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -562,7 +564,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1032695365767690343}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -575,10 +577,10 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -302.18, y: -171.2291}
-  m_SizeDelta: {x: -626.76, y: -375.10623}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 121, y: -63.4}
+  m_SizeDelta: {x: 241.6, y: 124.69998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3354565517111201884
 MonoBehaviour:
@@ -596,7 +598,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: -1
   m_PreferredWidth: -1
-  m_PreferredHeight: -56.10623
+  m_PreferredHeight: 154.89377
   m_FlexibleWidth: -1
   m_FlexibleHeight: 1
   m_LayoutPriority: 1
@@ -616,6 +618,43 @@ MonoBehaviour:
   playerHP: {fileID: 1032695365045960807}
   playerMP: {fileID: 1032695366892625936}
   progressbar: {fileID: 1032695365717164608}
+--- !u!222 &7027728660792233035
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032695365767690343}
+  m_CullTransparentMesh: 0
+--- !u!114 &7094989445741903534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032695365767690343}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.15294118}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
 --- !u!1 &1032695366813270289
 GameObject:
   m_ObjectHideFlags: 0
@@ -627,7 +666,7 @@ GameObject:
   - component: {fileID: 1032695366813270294}
   - component: {fileID: 1032695366813270292}
   - component: {fileID: 1032695366813270295}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Submesh UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -648,10 +687,10 @@ RectTransform:
   m_Father: {fileID: 1032695365045960806}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.025032043, y: 0.000207901}
+  m_SizeDelta: {x: -0.050079, y: 0.08}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1032695366813270292
 CanvasRenderer:
@@ -701,7 +740,7 @@ GameObject:
   - component: {fileID: 1032695366846301289}
   - component: {fileID: 1032695366846301295}
   - component: {fileID: 1032695366846301294}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Submesh UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -722,10 +761,10 @@ RectTransform:
   m_Father: {fileID: 1032695366892625939}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.00006866455, y: -0.00077056885}
+  m_SizeDelta: {x: -0.1000061, y: -0.0069999695}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1032695366846301295
 CanvasRenderer:
@@ -775,7 +814,7 @@ GameObject:
   - component: {fileID: 1032695366892625939}
   - component: {fileID: 1032695366892625937}
   - component: {fileID: 1032695366892625936}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: MP
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -791,16 +830,16 @@ RectTransform:
   m_GameObject: {fileID: 1032695366892625938}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7003809, y: 0.7003809, z: 0.7003809}
+  m_LocalScale: {x: 0.44370544, y: 0.44370544, z: 0.44370544}
   m_Children:
   - {fileID: 1032695366846301289}
   m_Father: {fileID: 1032695365767690340}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 59, y: -3}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchorMin: {x: 0.5237219, y: 0.4565632}
+  m_AnchorMax: {x: 0.85141724, y: 0.597}
+  m_AnchoredPosition: {x: 0, y: -0.5878229}
+  m_SizeDelta: {x: 100, y: 28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1032695366892625937
 CanvasRenderer:
@@ -858,10 +897,10 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 36
+  m_fontSize: 39.3
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
