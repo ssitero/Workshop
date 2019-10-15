@@ -309,8 +309,8 @@ MonoBehaviour:
   maxEnemy: 2
   loadScene: Battle
   enemiesList:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2840727720828175893, guid: 63a6d5c4a5564754d9d45fef66f5cdae, type: 3}
+  - {fileID: 2840727720828175893, guid: 63a6d5c4a5564754d9d45fef66f5cdae, type: 3}
 --- !u!65 &799354808
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -422,7 +422,8 @@ MonoBehaviour:
   playerIsWalking: 0
   enemyCollisionPossible: 0
   enemyCollided: 0
-  enemiesToFight: []
+  enemiesToFight:
+  - {fileID: 2840727720828175893, guid: 63a6d5c4a5564754d9d45fef66f5cdae, type: 3}
   gameState: 0
   numEnemies: 0
 --- !u!4 &1057306957
@@ -583,8 +584,8 @@ MonoBehaviour:
   maxEnemy: 2
   loadScene: Battle
   enemiesList:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2840727720828175893, guid: 63a6d5c4a5564754d9d45fef66f5cdae, type: 3}
+  - {fileID: 2840727720828175893, guid: 63a6d5c4a5564754d9d45fef66f5cdae, type: 3}
 --- !u!65 &1152085459
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -676,7 +677,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1625223863
 MonoBehaviour:
   m_ObjectHideFlags: 0

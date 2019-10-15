@@ -56,6 +56,9 @@ public class Game_Manager : MonoBehaviour
 
     void Update()
     {
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
         switch (gameState)
         {
             case (GameState.Overworld):
@@ -107,6 +110,7 @@ public class Game_Manager : MonoBehaviour
 
         for (int i = 0; i < numEnemies; i++)
         {
+            Debug.Log(curEnemy.enemiesList[Random.Range(0, curEnemy.enemiesList.Count)]);
             enemiesToFight.Add(curEnemy.enemiesList[Random.Range(0, curEnemy.enemiesList.Count)]);
         }
 
