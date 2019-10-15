@@ -74,6 +74,9 @@ public class Battle_StateMachine : MonoBehaviour
     }
     void Start()
     {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+
         battleState = BattleStates.Wait;
         playerList.AddRange(GameObject.FindGameObjectsWithTag("Player"));
 
@@ -210,7 +213,7 @@ public class Battle_StateMachine : MonoBehaviour
 
             Enemy_StateMachine cur_enemy = enemy.GetComponent<Enemy_StateMachine>();
 
-            TextMeshProUGUI buttonText = newButton.transform.Find("TMP Text").gameObject.GetComponent<TextMeshProUGUI>();
+            TextMeshProUGUI buttonText = newButton.transform.Find("Text (TMP)").gameObject.GetComponent<TextMeshProUGUI>();
 
             buttonText.text = cur_enemy.enemy.enemyName;
             button.enemyObj = enemy;
@@ -265,7 +268,7 @@ public class Battle_StateMachine : MonoBehaviour
     void createAttackButtons()
     {
         GameObject attackButton = Instantiate(actionButton) as GameObject;
-        TextMeshProUGUI attackButtonText = attackButton.transform.Find("Text").gameObject.GetComponent<TextMeshProUGUI>();
+        TextMeshProUGUI attackButtonText = attackButton.transform.Find("Text (TMP)").gameObject.GetComponent<TextMeshProUGUI>();
 
         attackButtonText.text = "Attack";
         attackButton.GetComponent<Button>().onClick.AddListener(() => input1());
@@ -273,7 +276,7 @@ public class Battle_StateMachine : MonoBehaviour
         attackButtons.Add(attackButton);
 
         GameObject skillButton = Instantiate(actionButton) as GameObject;
-        TextMeshProUGUI skillbuttonText = skillButton.transform.Find("Text").gameObject.GetComponent<TextMeshProUGUI>();
+        TextMeshProUGUI skillbuttonText = skillButton.transform.Find("Text (TMP)").gameObject.GetComponent<TextMeshProUGUI>();
 
         skillbuttonText.text = "Skill";
         skillButton.GetComponent<Button>().onClick.AddListener(() => input3());
@@ -285,7 +288,7 @@ public class Battle_StateMachine : MonoBehaviour
             foreach (Attack_Base skillAttack in playerList[0].GetComponent<Player_StateMachine>().player.attacks)
             {
                 GameObject skills = Instantiate(skillsButton) as GameObject;
-                TextMeshProUGUI skillText = skills.transform.Find("Text").gameObject.GetComponent<TextMeshProUGUI>();
+                TextMeshProUGUI skillText = skills.transform.Find("Text (TMP)").gameObject.GetComponent<TextMeshProUGUI>();
 
                 skillText.text = skillAttack.attackName;
                 Skill_Buttons skillB = skills.GetComponent<Skill_Buttons>();

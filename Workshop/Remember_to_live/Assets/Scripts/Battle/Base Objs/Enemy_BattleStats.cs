@@ -9,7 +9,7 @@ public class Enemy_BattleStats
     public string enemyName;
 
     public float enemyHP, curHP;
-    public float playerMP, curMP;
+    public float enemyMP, curMP;
 
     public int enemyStr;
     public int enemyInt;

@@ -43,7 +43,7 @@ public class Player_StateMachine : MonoBehaviour
         BSM = GameObject.Find("BattleManager").GetComponent<Battle_StateMachine>();
         selector.SetActive(false);
 
-        playerPanelSpacer = GameObject.Find("Battle UI").transform.Find("Player Panel").transform.Find("Player Panel Spacer");
+        playerPanelSpacer = GameObject.Find("Battle UI").transform.Find("Player Panel").transform.Find("PlayerPanelSpacer");
         createPlayerPanel();
     }
 
