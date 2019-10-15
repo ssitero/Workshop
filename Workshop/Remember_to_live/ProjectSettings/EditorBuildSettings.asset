@@ -18,6 +18,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Turn Based Battle.unity
     guid: 0dee5b2406f53d94980de92b980731b1
   - enabled: 1
-    path: Assets/Scenes/Battle.unity
-    guid: 30a860f7ca6d3e94e98d5677d9892423
+    path: Assets/Scenes/SampleBattle.unity
+    guid: 5addeb8be3c9be443a719eb75e879740
   m_configObjects: {}
