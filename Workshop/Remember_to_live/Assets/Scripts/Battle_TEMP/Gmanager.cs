@@ -59,10 +59,10 @@ public class Gmanager : MonoBehaviour {
         }
         //set current to not destroyable
         DontDestroyOnLoad(gameObject);
-        if (!GameObject.Find("playerCharacter"))
+        if (!GameObject.Find("Player"))
         {
             GameObject Player = Instantiate(playerCharacter,Vector3.zero,Quaternion.identity) as GameObject;
-            Player.name = "playerCharacter";
+            Player.name = "Player";
         }
     }
 
@@ -112,12 +112,12 @@ public class Gmanager : MonoBehaviour {
     {
         if(isWalking && canEncounterEnemy)
         {
-            
-            if(Random.Range(0,1000) < 10)
+            gotEncountered = true;
+            /*if(Random.Range(0,1000) < 10)
             {
                 Debug.Log("Enocunter Occured");
                 gotEncountered = true;
-            }
+            }*/
 
         }
     }
@@ -132,7 +132,7 @@ public class Gmanager : MonoBehaviour {
             enemiesToBattle.Add(curRegion.possibleEnemies[Random.Range(0, curRegion.possibleEnemies.Count)]);
         }
         //player pos for after battle
-        prevPlayerPos = GameObject.Find("playerCharacter").gameObject.transform.position;
+        prevPlayerPos = GameObject.Find("Player").gameObject.transform.position;
         //scene player was in
         nextPlayerPos = prevPlayerPos;
         lastScene = SceneManager.GetActiveScene().name;

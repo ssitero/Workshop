@@ -117,6 +117,7 @@ MonoBehaviour:
     curDef: 5
     attacks:
     - {fileID: 3604298938535042430, guid: 69d443a3f5713bf46a1dad79d8db698c, type: 3}
+    - {fileID: 114281690579476242, guid: 5adce900be8c0fa469b97d188b7bf012, type: 3}
     enemyType: 2
     droprate: 0
   currentState: 0
