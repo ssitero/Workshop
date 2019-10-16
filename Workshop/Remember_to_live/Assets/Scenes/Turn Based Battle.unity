@@ -1147,10 +1147,13 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: -30.593002, z: 0}
 --- !u!1 &1379038171 stripped
 =======
+=======
+>>>>>>> parent of b375d7d... Everything but the buttons
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: -95.65301, z: 0}
 --- !u!1 &1057306955
@@ -1618,9 +1621,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 =======
+=======
+>>>>>>> parent of b375d7d... Everything but the buttons
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -48.629, z: 0}
 >>>>>>> parent of 4a0e3e9... Merge branch 'Yingying' into Joyce
@@ -1842,10 +1848,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 6
 =======
   m_RootOrder: 1
 >>>>>>> parent of 4a0e3e9... Merge branch 'Yingying' into Joyce
+=======
+  m_RootOrder: 1
+>>>>>>> parent of b375d7d... Everything but the buttons
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1879335754 stripped
 GameObject:
@@ -2109,6 +2119,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1960878324
@@ -2205,6 +2216,9 @@ Transform:
 =======
   m_RootOrder: 2
 >>>>>>> parent of 4a0e3e9... Merge branch 'Yingying' into Joyce
+=======
+  m_RootOrder: 2
+>>>>>>> parent of b375d7d... Everything but the buttons
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1960878329
 MonoBehaviour:
