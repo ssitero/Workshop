@@ -39,7 +39,7 @@ public class Game_Manager : MonoBehaviour
     public int enemiesOnMap;
     public GameObject enemyCollider;
     public List<GameObject> populateMapWEnemies = new List<GameObject>();
-    public Transform enemySpawn;
+    public List<Transform> enemySpawn = new List<Transform>();
 
     void Awake()
     {
@@ -62,7 +62,7 @@ public class Game_Manager : MonoBehaviour
         {
             for (int i = 0; i < enemiesOnMap; i++)
             {
-                GameObject Enemy = Instantiate(enemyCollider, enemySpawn.position, Quaternion.identity) as GameObject;
+                GameObject Enemy = Instantiate(enemyCollider, enemySpawn[i].position, Quaternion.identity) as GameObject;
                 Enemy.name = "Enemy_" + (i + 1);
                 populateMapWEnemies.Add(Enemy);
             }
@@ -74,11 +74,6 @@ public class Game_Manager : MonoBehaviour
         switch (gameState)
         {
             case (GameState.Overworld):
-                for (int i = 0; i < enemiesOnMap; i++)
-                {
-                    populateMapWEnemies[i].transform.position = Vector3.MoveTowards(populateMapWEnemies[i].transform.position, GameObject.Find("PlayerCharacer").transform.position, .03f);
-                }
-
                 if (playerIsWalking)
                 {
                     Encounter();
