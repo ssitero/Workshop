@@ -1146,9 +1146,15 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: -30.593002, z: 0}
 --- !u!1 &1379038171 stripped
+=======
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: -95.65301, z: 0}
+--- !u!1 &1057306955
+>>>>>>> parent of 4a0e3e9... Merge branch 'Yingying' into Joyce
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5673574602077270914, guid: 69d20bdb80db78647a34bad09321b8b3,
     type: 3}
@@ -1192,14 +1198,31 @@ MeshCollider:
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3673895512272737302, guid: 69d20bdb80db78647a34bad09321b8b3,
     type: 3}
+<<<<<<< HEAD
   m_PrefabInstance: {fileID: 2080241981}
   m_PrefabAsset: {fileID: 0}
 --- !u!64 &1519446279
 MeshCollider:
+=======
+  spawnPlayer: {x: 0, y: 0, z: 0}
+  returnPlayer: {x: 0, y: 0, z: 0}
+  loadScene: 
+  prevScene: 
+  playerIsWalking: 0
+  enemyCollisionPossible: 0
+  enemyCollided: 0
+  enemiesToFight:
+  - {fileID: 2840727720828175893, guid: 63a6d5c4a5564754d9d45fef66f5cdae, type: 3}
+  gameState: 0
+  numEnemies: 0
+--- !u!4 &1057306957
+Transform:
+>>>>>>> parent of 4a0e3e9... Merge branch 'Yingying' into Joyce
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1519446275}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1209,6 +1232,17 @@ MeshCollider:
   m_CookingOptions: 14
   m_Mesh: {fileID: 8366233406617269529, guid: 69d20bdb80db78647a34bad09321b8b3, type: 3}
 --- !u!1 &1550860395
+=======
+  m_GameObject: {fileID: 1057306955}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1094263470
+>>>>>>> parent of 4a0e3e9... Merge branch 'Yingying' into Joyce
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1338,6 +1372,7 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1550860395}
   m_CullTransparentMesh: 0
 --- !u!1 &1604861721 stripped
@@ -1348,6 +1383,18 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!64 &1604861725
 MeshCollider:
+=======
+  m_GameObject: {fileID: 1094263470}
+  m_LocalRotation: {x: -0, y: 0.2619452, z: -0, w: 0.9650828}
+  m_LocalPosition: {x: 7.41, y: 1.04, z: 5.32}
+  m_LocalScale: {x: 1.887, y: 1.887, z: 1.887}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 30.371002, z: 0}
+--- !u!114 &1094263475
+MonoBehaviour:
+>>>>>>> parent of 4a0e3e9... Merge branch 'Yingying' into Joyce
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1356,11 +1403,24 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
+<<<<<<< HEAD
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 20373024863894986, guid: 69d20bdb80db78647a34bad09321b8b3, type: 3}
 --- !u!1 &1606799339
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7532fe80a54dd8f468fa396a33a9422a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxEnemy: 2
+  loadScene: Battle
+  enemiesList:
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!1 &1152085457
+>>>>>>> parent of 4a0e3e9... Merge branch 'Yingying' into Joyce
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1557,8 +1617,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+=======
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: -48.629, z: 0}
+>>>>>>> parent of 4a0e3e9... Merge branch 'Yingying' into Joyce
 --- !u!1 &1625223862
 GameObject:
   m_ObjectHideFlags: 0
@@ -1578,7 +1643,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1625223863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1776,7 +1841,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 6
+=======
+  m_RootOrder: 1
+>>>>>>> parent of 4a0e3e9... Merge branch 'Yingying' into Joyce
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1879335754 stripped
 GameObject:
@@ -2039,6 +2108,7 @@ Transform:
   m_LocalScale: {x: 14.533615, y: 8.087294, z: 14.31568}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1960878324
@@ -2132,6 +2202,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
+=======
+  m_RootOrder: 2
+>>>>>>> parent of 4a0e3e9... Merge branch 'Yingying' into Joyce
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1960878329
 MonoBehaviour:
