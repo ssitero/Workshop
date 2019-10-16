@@ -95,6 +95,8 @@ public class Enemy_StateMachine : MonoBehaviour
                     this.gameObject.GetComponent<MeshRenderer>().material.color = new Color32(155, 155, 155, 255);
                     alive = false;
                     BSM.TargetButtons();
+
+                    BSM.battleState = Battle_StateMachine.BattleStates.CheckAlive;
                 }
                 break;
 

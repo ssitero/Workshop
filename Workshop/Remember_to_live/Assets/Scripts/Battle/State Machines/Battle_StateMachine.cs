@@ -139,7 +139,7 @@ public class Battle_StateMachine : MonoBehaviour
                 {
                     battleState = BattleStates.Loss;
                 }
-                else if (enemyList.Count < 1)
+                else if (enemyList.Count == 0)
                 {
                     battleState = BattleStates.Win;
                 }
@@ -151,6 +151,7 @@ public class Battle_StateMachine : MonoBehaviour
                 break;
 
             case (BattleStates.Win):
+                Debug.Log("Victory");
                 for (int i = 0; i < playerList.Count; i++)
                 {
                     playerList[i].GetComponent<Player_StateMachine>().playerState = Player_StateMachine.TurnState.Waiting;
@@ -244,7 +245,7 @@ public class Battle_StateMachine : MonoBehaviour
 
         clearAttackPanel();
 
-        playerManagerList[0].transform.Find("selecter").gameObject.SetActive(false);
+        playerManagerList[0].transform.Find("selector").gameObject.SetActive(false);
         playerManagerList.RemoveAt(0);
         playerInput = PlayerGUI.Activate;
     }

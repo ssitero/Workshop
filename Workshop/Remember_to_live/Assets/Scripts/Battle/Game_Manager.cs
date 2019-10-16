@@ -35,6 +35,12 @@ public class Game_Manager : MonoBehaviour
 
     public int numEnemies;
 
+    // Spawn enemies to map
+    public int enemiesOnMap;
+    public GameObject enemyCollider;
+    public List<GameObject> populateMapWEnemies = new List<GameObject>();
+    public Transform enemySpawn;
+
     void Awake()
     {
         if (instance == null)
@@ -52,6 +58,15 @@ public class Game_Manager : MonoBehaviour
             GameObject Player = Instantiate(playerCharacter, Vector3.zero, Quaternion.identity) as GameObject;
             Player.name = "PlayerCharacter";
         }
+        if (!GameObject.Find("Enemy"))
+        {
+            for (int i = 0; i < enemiesOnMap; i++)
+            {
+                GameObject Enemy = Instantiate(enemyCollider, enemySpawn.position, Quaternion.identity) as GameObject;
+                Enemy.name = "Enemy_" + (i + 1);
+                populateMapWEnemies.Add(Enemy);
+            }
+        }
     }
 
     void Update()
@@ -59,6 +74,11 @@ public class Game_Manager : MonoBehaviour
         switch (gameState)
         {
             case (GameState.Overworld):
+                for (int i = 0; i < enemiesOnMap; i++)
+                {
+                    populateMapWEnemies[i].transform.position = Vector3.MoveTowards(populateMapWEnemies[i].transform.position, GameObject.Find("PlayerCharacer").transform.position, .03f);
+                }
+
                 if (playerIsWalking)
                 {
                     Encounter();
@@ -103,7 +123,7 @@ public class Game_Manager : MonoBehaviour
 
     void startBattle()
     {
-        numEnemies = Random.Range(1, curEnemy.maxEnemy + 1);
+        numEnemies = Random.Range(1, curEnemy.maxEnemy);
 
         for (int i = 0; i < numEnemies; i++)
         {

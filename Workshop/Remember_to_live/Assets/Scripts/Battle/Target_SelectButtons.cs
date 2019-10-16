@@ -16,11 +16,11 @@ public class Target_SelectButtons : MonoBehaviour
 
     public void toggleOn()
     {
-        enemyObj.transform.Find("eSelector").gameObject.SetActive(true);
+        enemyObj.transform.Find("selector").gameObject.SetActive(true);
     }
 
     public void toggleOff()
     {
-        enemyObj.transform.Find("eSelector").gameObject.SetActive(false);
+        enemyObj.transform.Find("selector").gameObject.SetActive(false);
     }
 }
