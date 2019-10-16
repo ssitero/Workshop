@@ -21,6 +21,6 @@ public class Base_SentientLifeForm
     public float def;
 
     // List of skills known by this actor
-    public List<Base_Attack> attacksKnown = new List<Base_Attack>;
+    public List<Base_Attack> attacksKnown = new List<Base_Attack>();
 
 }
