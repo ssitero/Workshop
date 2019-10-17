@@ -38,11 +38,17 @@ public class Game_Manager : MonoBehaviour
     // Spawn enemies to map
     public int enemiesOnMap;
     public GameObject enemyCollider;
+    public Transform spawnPrefab;
     public List<GameObject> populateMapWEnemies = new List<GameObject>();
+    public List<GameObject> spawnPoints = new List<GameObject>();
     public List<Transform> enemySpawn = new List<Transform>();
+
+    public int initSize;
 
     void Awake()
     {
+        initSize = spawnPoints.Count;
+
         if (instance == null)
         {
             instance = this;
@@ -58,10 +64,29 @@ public class Game_Manager : MonoBehaviour
             GameObject Player = Instantiate(playerCharacter, Vector3.zero, Quaternion.identity) as GameObject;
             Player.name = "PlayerCharacter";
         }
+
+        /*for (int i = 0; i < initSize; i++)
+        {
+            if (spawnPoints[i] == null)
+            {
+                spawnPoints.Insert(i, GameObject.FindGameObjectWithTag("Spawn"));
+            }
+        }*/
+
+        /*Debug.Log("Count: " + spawnPoints.Count);
+        if (spawnPoints.Count < initSize)
+        {
+            spawnPoints.AddRange(GameObject.FindGameObjectsWithTag("Spawn"));
+        }*/
+
         if (!GameObject.Find("Enemy"))
         {
             for (int i = 0; i < enemiesOnMap; i++)
             {
+                Transform Spawn = Instantiate(spawnPrefab, spawnPoints[i].transform.position, Quaternion.identity) as Transform;
+                Spawn.name = "Spawn_" + (i + 1);
+                enemySpawn.Add(Spawn);
+
                 GameObject Enemy = Instantiate(enemyCollider, enemySpawn[i].position, Quaternion.identity) as GameObject;
                 Enemy.name = "Enemy_" + (i + 1);
                 populateMapWEnemies.Add(Enemy);

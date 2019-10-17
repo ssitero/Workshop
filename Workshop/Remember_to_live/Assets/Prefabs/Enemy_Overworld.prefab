@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2421812815207651038}
   - component: {fileID: 2421812815207651010}
   m_Layer: 0
-  m_Name: Enemy 1
+  m_Name: Enemy_Overworld
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -104,7 +104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7532fe80a54dd8f468fa396a33a9422a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxEnemy: 3
+  maxEnemy: 1
   loadScene: Battle
   enemiesList:
   - {fileID: 2840727720828175893, guid: 63a6d5c4a5564754d9d45fef66f5cdae, type: 3}

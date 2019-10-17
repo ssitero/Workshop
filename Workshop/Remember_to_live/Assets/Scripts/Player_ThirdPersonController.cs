@@ -82,10 +82,18 @@ public class Player_ThirdPersonController : MonoBehaviour
     {
         if (other.tag == "Enemy")
         {
-            Game_Manager.instance.enemyCollisionPossible = true;
-            Game_Manager.instance.populateMapWEnemies.Remove(other.gameObject);
-            Game_Manager.instance.enemiesOnMap--;
+            int remove = Game_Manager.instance.populateMapWEnemies.IndexOf(other.gameObject);
 
+            Destroy(other.gameObject);
+            Game_Manager.instance.populateMapWEnemies.Remove(other.gameObject);
+
+            Debug.Log(remove);
+
+            Game_Manager.instance.enemySpawn.RemoveAt(remove);
+            Game_Manager.instance.enemiesOnMap--;
+            Game_Manager.instance.initSize--;
+
+            Game_Manager.instance.enemyCollisionPossible = true;
             //other.gameObject.SetActive(false);
         }
     }
